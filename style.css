@@ -1,0 +1,97 @@
+html {
+  background-color: #011633;
+  color: #ffffff;
+  font-size: 62.5%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+}
+
+section {
+  padding: 5rem;
+  max-width: 96rem;
+  margin: 0 auto;
+}
+h2 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.inspecionar {
+  border: 5px solid red;
+}
+.items-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav {
+  padding: 2rem 6rem;
+}
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 3rem;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.edn2 {
+  border-radius: 100%;
+  width: 28rem;
+  height: 28rem;
+  margin-right: 10rem;
+}
+
+.main-title {
+  font-size: 4rem;
+}
+
+.main-description {
+  margin: 1.6rem 0;
+}
+
+.button {
+  border-radius: 0.4rem;
+  background-color: #0039cc;
+  padding: 1rem 2rem;
+  color: #ffffff
+  text-decoration: none;
+}
+.button {
+  border-radius: 0.3rem;
+  background-color: #0039CC;
+  padding: 1rem 2rem;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+.about {
+  background-color: #162340;
+}
+
+.project {
+  margin: 7rem 0;
+}
+
+.project-image {
+  width: 24rem;
+  height: 24rem;
+  margin-right: 2.5rem;
+  border-radius: 100%;
+}
+
+.projetc-title {
+  font-size: 2rem;
+}
+
+@media(max-width: 1200px) {
+  .items-center {
+    flex-direction: column;
+  }
+}
